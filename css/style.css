@@ -1,0 +1,136 @@
+/* &display=swap */
+
+@import "null.css";
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700,900,&display=swap");
+
+
+/* ================================================================ */
+
+/* ================================================================ */
+
+body {
+	font-family: "Roboto", sans-serif;
+	background: #F5F5F5;
+	
+}
+
+.wrapper {
+	min-height: 100%;
+	overflow: hidden;
+}
+
+.header__background{
+	display: block;
+	width: 100%;
+}
+
+.who-we-are {
+	
+	
+}
+
+.who-we-are__container {
+	margin: 0px auto;
+	max-width: 1020px;
+	
+}
+
+
+.who-we-are__content {
+	
+}
+
+.who-we-are__block{
+background: #5D62B5;
+border-radius: 40px;
+position: relative;
+padding: 100px 87px 0 87px;
+margin: -80px 0 200px;
+
+}
+
+
+
+.who-we-are__block::before {
+	content: "";
+	position: absolute;
+	z-index: 0;
+	bottom: -27px;
+	left: 51px;
+	background: url("../img/Blob2.png") 0 0 / auto no-repeat;
+	height: 371px;
+	width: 514px;
+} 
+
+.who-we-are__block::after {
+	content: "";
+	position: absolute;
+	top: -109px;
+	right: -69px;
+	background: url("../img/Stylize-Circles.svg") 0 0 / auto no-repeat;
+	height: 317px;
+	width: 194px;
+}
+
+
+
+.block-content__subtitle {
+text-transform: uppercase;
+color: white;
+font-size: 12px;
+font-weight: 700;
+letter-spacing: 2.5px;
+line-height: 2;
+margin-bottom: 33px;
+position: relative;
+padding: 0 0 0 32px;
+
+}
+
+.block-content__subtitle::before {
+	content: "";
+	position: absolute;
+	background: url("../img/Overline-Mark.svg") 0 -1px / auto no-repeat;
+	height: 20px;
+	width: 20px;
+	top: 0;
+	left: 0;
+	}
+
+.block-content__title {
+	color: white;
+	font-size: 36px;
+	font-weight: 900;
+	max-width: 583px;
+	line-height: 1.16;
+	margin-bottom: 36px;
+	position: relative;
+	}
+
+.block-content__text {
+	color: white;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 1.5;
+	letter-spacing: 0.15px;
+	max-width: 846px;
+	margin-bottom: 54px;
+	position: relative;
+
+}
+
+.block-content__image {
+	margin: 0 auto;
+	position: relative;
+	}
+
+	.block-content__picture{
+		max-width: 846px;
+		margin-bottom: -120px;
+		border-radius: 40px;
+		box-shadow: 0px 16px 24px 0px rgba(38, 38, 38, 0.2);
+	}
+
+	/* .block-content > *:last-child {
+		margin-bottom: 0;
+	} */
